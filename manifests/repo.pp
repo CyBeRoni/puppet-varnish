@@ -55,6 +55,9 @@ class varnish::repo (
 	  '41': {
 	    $key_id = "9C96F9CA0DC3F4EA78FF332834BF6E8ECBF5C49E"
 	  }
+    '50': {
+      $key_id = "3E925951E2C07969121BDAB481F8CA2EC23F55C5"
+    }
 	}
 
         apt::source { 'varnish':
